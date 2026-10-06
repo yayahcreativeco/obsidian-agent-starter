@@ -1,0 +1,29 @@
+# Secrets. Never commit these.
+.env
+.env.*
+*.pem
+*.key
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+
+# Obsidian per-device state (keep app.json, core-plugins.json, community-plugins.json)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+
+# Claude Code local state
+.claude/settings.local.json
+.claude/worktrees/
+.claude/plans/
+.claude/scripts/*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Sync conflict artifacts
+.!*!*
+*.sync-conflict-*
